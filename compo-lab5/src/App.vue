@@ -50,14 +50,14 @@ h2 {
   font-size: 20px;
 }
 @keyframes yellofade {
-  from{
+  from {
     background-color: yellow;
   }
   to {
     background-color: transparent;
   }
 }
-#flashMessage{
+#flashMessage {
   animation: yellofade 3s ease-in-out;
 }
 .separator {

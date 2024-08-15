@@ -1,15 +1,15 @@
-import type { MessageState } from "@/types"
-import { defineStore } from "pinia"
+import type { MessageState } from '@/types'
+import { defineStore } from 'pinia'
 export const useMessageStore = defineStore('message', {
-    state: (): MessageState => ({
-        message: ''
-    }),
-    actions: {
+  state: (): MessageState => ({
+    message: ''
+  }),
+  actions: {
     updateMessage(message: string): void {
-        this.message = message
+      this.message = message
     },
     resetMessage(): void {
-        this.message = ''
+      this.message = ''
     }
-}
+  }
 })
